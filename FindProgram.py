@@ -67,7 +67,7 @@ try:
             with open(file,'a') as tmp:
                 tmp.write(results + '\n')
         
-        if args.nonstop == None:
+        if args.nonstop == None or args.count != None:
             print('\n' + colorama.Fore.YELLOW + '[!] continue...',end='')
             input()
 
