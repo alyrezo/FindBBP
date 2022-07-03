@@ -17,6 +17,7 @@ banner = colorama.Fore.RED + """
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--silence',action="store_const",const=True,help="Not displaying the banner")
+parser.add_argument('-n','--nonstop',action="store_const",const=True,help="non stop crawling")
 parser.add_argument('-d','--dork',type=str,help="for using your custom dork")
 parser.add_argument('-o','--output',type=str,help="result export as txt file")
 parser.add_argument('-c','--count',type=int,help='count of domains it finds')
@@ -65,6 +66,10 @@ try:
         if args.output != None:
             with open(file,'a') as tmp:
                 tmp.write(results + '\n')
+        
+        if args.nonstop == None:
+            print('\n' + colorama.Fore.YELLOW + '[!] continue...',end='')
+            input()
 
         time.sleep(0.1)
 except KeyboardInterrupt:
