@@ -3,6 +3,14 @@
   <br>
 </h1>
 
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#running">Running</a> •
+  <a href="#license">License</a>
+</p>
+
 ---
 
 Find Bug Bounty Program In short Find BBP is a google crawler and tool that discovers bug Bounty Program via security.txt file by default and you can use custom dork
@@ -23,12 +31,10 @@ Find Bug Bounty Program In short Find BBP is a google crawler and tool that disc
 
 Find BBP requires **python3** to install successfully. Run the following command to install:
 
-```sh
-git clone https://github.com/alyrezo/FindBBP
-cd FindBBP
-python -m pip install -r lib.txt
-py FindProgram.py
-```
+- ```git clone https://github.com/alyrezo/FindBBP```
+- ```cd FindBBP ```
+- ``` python -m pip install -r lib.txt```
+- ```py FindProgram.py```
 
 # Usage
 
@@ -50,7 +56,7 @@ optional arguments:
 
 ```
 
-# Running Find BBP
+# Running
 
 To run the tool, just use the following command.
 
