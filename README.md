@@ -23,6 +23,7 @@ Find Bug Bounty Program In short Find BBP is a google crawler and tool that disc
 </h1>
 
 - Fast and powerful
+- Find private program
 - use custom dork
 - output export as txt file
 - sort tld domains
