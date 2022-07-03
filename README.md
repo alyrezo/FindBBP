@@ -18,7 +18,7 @@ Find Bug Bounty Program In short Find BBP is a google crawler and tool that disc
 # Features
 
 <h1 align="left">
-  <img src="static/1.png" alt="Find BBP" width="700px"></a>
+  <img src="static/5.png" alt="Find BBP" width="700px"></a>
   <br>
 </h1>
 
@@ -45,11 +45,12 @@ py FindProgram.py -h
 This will display help for the tool. Here are all the switches it supports.
 
 ```yaml
-usage: FindProgram.py [-h] [--silence] [-d DORK] [-o OUTPUT] [-c COUNT] [-t TLD]
+usage: FindProgram.py [-h] [--silence] [-n] [-d DORK] [-o OUTPUT] [-c COUNT] [-t TLD]
 
 optional arguments:
   -h, --help            show this help message and exit
   --silence             Not displaying the banner
+  -n, --nonstop         non stop crawling
   -d , --dork           for using your custom dork
   -o , --output         result export as txt file
   -c , --count          count of domains it finds
@@ -62,7 +63,7 @@ optional arguments:
 To run the tool, just use the following command.
 
 ```sh
-py FindProgram.py 
+py FindProgram.py --nonstop
 ```
 <h1 align="left">
   <img src="static/1.png" alt="Find BBP" width="700px"></a>
