@@ -1,0 +1,4 @@
+google
+argparse
+requests
+colorama
